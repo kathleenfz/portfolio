@@ -1,13 +1,48 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { motion } from "framer-motion";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+      className="min-h-screen pt-20 px-6"
+    >
+      <div className="max-w-4xl mx-auto">
+        <div className="flex flex-col lg:flex-row items-center lg:items-start gap-12">
+          <div className="w-64 h-64 rounded-full overflow-hidden flex-shrink-0">
+            <img
+              src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7"
+              alt="Profile"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="flex-1">
+            <h1 className="text-4xl font-bold mb-6">John Doe</h1>
+            <p className="text-lg text-gray-600 mb-6">
+              Creative professional with expertise in web development, filmmaking,
+              and writing. Based in San Francisco, I combine technical skills with
+              artistic vision to create compelling digital experiences and
+              stories.
+            </p>
+            <div className="space-y-4">
+              <p className="text-gray-600">
+                With over a decade of experience in multiple creative fields, I've
+                developed a unique perspective that allows me to approach projects
+                holistically, considering both technical requirements and artistic
+                merit.
+              </p>
+              <p className="text-gray-600">
+                My work has been featured in various publications and festivals,
+                and I'm always eager to take on new challenges that push the
+                boundaries of digital storytelling.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
