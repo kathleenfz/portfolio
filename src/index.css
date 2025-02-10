@@ -5,25 +5,25 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 160 84% 39%;
+    --foreground: 0 0% 0%;
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 0 0% 0%;
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --popover-foreground: 0 0% 0%;
+    --primary: 160 84% 39%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 151 81% 44%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 145 80% 90%;
+    --muted-foreground: 0 0% 40%;
+    --accent: 145 64% 70%;
+    --accent-foreground: 0 0% 0%;
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 160 84% 39%;
+    --input: 160 84% 39%;
+    --ring: 160 84% 39%;
     --radius: 0.5rem;
   }
 }
@@ -60,12 +60,12 @@
 }
 
 .navigation-link {
-  @apply relative text-base font-medium text-gray-600 hover:text-gray-900 transition-colors duration-200;
+  @apply relative text-base font-medium text-white/90 hover:text-white transition-colors duration-200;
 }
 
 .navigation-link::after {
   content: '';
-  @apply absolute left-0 bottom-0 w-0 h-0.5 bg-gray-900 transition-all duration-200;
+  @apply absolute left-0 bottom-0 w-0 h-0.5 bg-white transition-all duration-200;
 }
 
 .navigation-link:hover::after {

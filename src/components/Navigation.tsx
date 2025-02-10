@@ -12,7 +12,7 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-sm z-50 border-b">
+    <nav className="fixed top-0 left-0 right-0 bg-[#00C18C]/95 backdrop-blur-sm z-50 border-b border-white/10">
       <div className="max-w-5xl mx-auto px-6 py-4">
         <div className="flex justify-center items-center space-x-8">
           {links.map((link) => (
@@ -20,7 +20,7 @@ const Navigation = () => {
               key={link.path}
               to={link.path}
               className={`navigation-link ${
-                location.pathname === link.path ? 'text-gray-900' : ''
+                location.pathname === link.path ? 'text-white' : ''
               }`}
             >
               {link.label}

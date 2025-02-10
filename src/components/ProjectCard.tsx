@@ -23,7 +23,7 @@ const ProjectCard = ({
   return (
     <div
       className={cn(
-        "bg-white rounded-lg overflow-hidden card-hover",
+        "bg-white/90 backdrop-blur-sm rounded-lg overflow-hidden card-hover border border-white/20",
         className
       )}
     >
@@ -37,15 +37,15 @@ const ProjectCard = ({
         </div>
       )}
       <div className="p-6">
-        <p className="text-sm text-gray-500 mb-2">{date}</p>
-        <h3 className="text-xl font-semibold mb-2">{title}</h3>
-        <p className="text-gray-600 mb-4">{description}</p>
+        <p className="text-sm text-emerald-700 mb-2">{date}</p>
+        <h3 className="text-xl font-semibold mb-2 text-emerald-900">{title}</h3>
+        <p className="text-emerald-800 mb-4">{description}</p>
         {tags && (
           <div className="flex flex-wrap gap-2 mb-4">
             {tags.map((tag) => (
               <span
                 key={tag}
-                className="px-2 py-1 bg-gray-100 rounded-full text-sm text-gray-600"
+                className="px-2 py-1 bg-emerald-100 rounded-full text-sm text-emerald-700"
               >
                 {tag}
               </span>
@@ -57,7 +57,7 @@ const ProjectCard = ({
             href={link}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-900 font-medium hover:underline"
+            className="text-emerald-700 font-medium hover:underline"
           >
             Learn more →
           </a>
