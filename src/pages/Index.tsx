@@ -19,21 +19,21 @@ const Index = () => {
             />
           </div>
           <div className="flex-1">
-            <h1 className="text-4xl font-bold mb-6">John Doe</h1>
-            <p className="text-lg text-gray-600 mb-6">
+            <h1 className="text-4xl font-bold mb-6 text-white">John Doe</h1>
+            <p className="text-lg text-white mb-6">
               Creative professional with expertise in web development, filmmaking,
               and writing. Based in San Francisco, I combine technical skills with
               artistic vision to create compelling digital experiences and
               stories.
             </p>
             <div className="space-y-4">
-              <p className="text-gray-600">
+              <p className="text-white">
                 With over a decade of experience in multiple creative fields, I've
                 developed a unique perspective that allows me to approach projects
                 holistically, considering both technical requirements and artistic
                 merit.
               </p>
-              <p className="text-gray-600">
+              <p className="text-white">
                 My work has been featured in various publications and festivals,
                 and I'm always eager to take on new challenges that push the
                 boundaries of digital storytelling.
