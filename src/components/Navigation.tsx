@@ -1,12 +1,16 @@
 import { Link, useLocation } from 'react-router-dom';
 import { Mail, FileText, LinkedinIcon, Menu, X, Instagram } from 'lucide-react';
 import { useIsMobile } from '@/hooks/use-mobile';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Navigation = () => {
   const location = useLocation();
   const isMobile = useIsMobile();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
 
   const links = [
     { path: '/', label: 'Home' },
@@ -97,7 +101,10 @@ const Navigation = () => {
                 className={`navigation-link text-center ${
                   location.pathname === link.path ? 'text-black underline underline-offset-4' : ''
                 }`}
-                onClick={() => isMobile && setIsMenuOpen(false)}
+                onClick={() => {
+                  isMobile && setIsMenuOpen(false);
+                  window.scrollTo(0, 0);
+                }}
               >
                 {link.label}
               </Link>
