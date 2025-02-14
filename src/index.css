@@ -72,7 +72,8 @@
 
 @media (max-width: 768px) {
   .navigation-link {
-    font-size: 0.67rem;  /* Smaller size for mobile */
+    margin-top: .5rem;
+    font-size: 1.0rem;  /* Smaller size for mobile */
   }
 }
 
