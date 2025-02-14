@@ -11,7 +11,7 @@ const Navigation = () => {
     { path: '/', label: 'Home' },
     { path: '/writing', label: 'Writing' },
     { path: '/film-documentary', label: 'Film & Documentary' },
-    { path: '/development', label: 'Web Development' },
+    { path: '/webdev', label: 'Web Development' },
   ];
 
   const socialButtons = [

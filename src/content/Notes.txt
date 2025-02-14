@@ -4,3 +4,6 @@ Go to index.css and change the colors of the following:
 --navbar-background: 168 100% 42%;
 --navbar-foreground: 0 0% 0%;
 --navbar-icon: 0 0% 0%;
+
+
+Also go to index.html and change the website details & Google Analytics ID
