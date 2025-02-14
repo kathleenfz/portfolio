@@ -3,18 +3,11 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, Mail, FileText, Linkedin } from 'lucide-react';
 import { useState } from 'react';
 import { useIsMobile } from '@/hooks/use-mobile';
-import { useQuery } from '@tanstack/react-query';
-import { fetchContent } from '@/utils/content';
 
 const Navigation = () => {
   const location = useLocation();
   const isMobile = useIsMobile();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  
-  const { data: bioData } = useQuery({
-    queryKey: ['bio'],
-    queryFn: () => fetchContent('bio'),
-  });
 
   const links = [
     { path: '/', label: 'Bio' },
@@ -26,17 +19,17 @@ const Navigation = () => {
   const socialButtons = [
     { 
       icon: <Mail className="w-5 h-5" />, 
-      href: `mailto:${bioData?.email || ''}`,
+      href: 'mailto:your.email@example.com',
       label: 'Email'
     },
     { 
       icon: <Linkedin className="w-5 h-5" />, 
-      href: bioData?.linkedin || '#',
+      href: 'https://linkedin.com/in/your-profile',
       label: 'LinkedIn'
     },
     { 
       icon: <FileText className="w-5 h-5" />, 
-      href: bioData?.cvUrl || '#',
+      href: '/cv.pdf',
       label: 'CV'
     },
   ];
@@ -62,7 +55,7 @@ const Navigation = () => {
           </div>
 
           {/* Name */}
-          <h1 className="text-2xl font-bold text-white mb-4">{bioData?.name || 'Loading...'}</h1>
+          <h1 className="text-2xl font-bold text-white mb-4">John Doe</h1>
 
           {/* Mobile menu button */}
           {isMobile && (

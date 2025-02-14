@@ -1,7 +1,6 @@
 
 import { motion } from "framer-motion";
 import ProjectCard from "@/components/ProjectCard";
-import { useEffect } from "react";
 
 const projects = [
   {
@@ -29,30 +28,6 @@ const projects = [
 ];
 
 const Development = () => {
-  useEffect(() => {
-    // Update metadata when component mounts
-    document.title = "Web Development Portfolio";
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute('content', 'Showcase of web development projects including full-stack applications, tools, and innovative solutions using modern technologies.');
-    }
-    // Update OpenGraph metadata
-    const ogTitle = document.querySelector('meta[property="og:title"]');
-    const ogDescription = document.querySelector('meta[property="og:description"]');
-    if (!ogTitle) {
-      const meta = document.createElement('meta');
-      meta.setAttribute('property', 'og:title');
-      document.head.appendChild(meta);
-    }
-    if (!ogDescription) {
-      const meta = document.createElement('meta');
-      meta.setAttribute('property', 'og:description');
-      document.head.appendChild(meta);
-    }
-    document.querySelector('meta[property="og:title"]')?.setAttribute('content', 'Web Development Portfolio');
-    document.querySelector('meta[property="og:description"]')?.setAttribute('content', 'Showcase of web development projects using modern technologies.');
-  }, []);
-
   return (
     <motion.div
       initial={{ opacity: 0 }}

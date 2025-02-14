@@ -1,7 +1,6 @@
 
 import { motion } from "framer-motion";
 import ProjectCard from "@/components/ProjectCard";
-import { useEffect } from "react";
 
 const writings = [
   {
@@ -26,15 +25,6 @@ const writings = [
 ];
 
 const Writing = () => {
-  useEffect(() => {
-    // Update metadata when component mounts
-    document.title = "Writing - Portfolio";
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute('content', 'A collection of articles and essays covering web development, filmmaking, and creative writing.');
-    }
-  }, []);
-
   return (
     <motion.div
       initial={{ opacity: 0 }}

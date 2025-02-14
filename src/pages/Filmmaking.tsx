@@ -1,7 +1,6 @@
 
 import { motion } from "framer-motion";
 import ProjectCard from "@/components/ProjectCard";
-import { useEffect } from "react";
 
 const films = [
   {
@@ -27,30 +26,6 @@ const films = [
 ];
 
 const Filmmaking = () => {
-  useEffect(() => {
-    // Update metadata when component mounts
-    document.title = "Filmmaking Portfolio";
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute('content', 'A showcase of cinematic projects and visual storytelling, featuring documentaries, experimental films, and short films.');
-    }
-    // Update OpenGraph metadata
-    const ogTitle = document.querySelector('meta[property="og:title"]');
-    const ogDescription = document.querySelector('meta[property="og:description"]');
-    if (!ogTitle) {
-      const meta = document.createElement('meta');
-      meta.setAttribute('property', 'og:title');
-      document.head.appendChild(meta);
-    }
-    if (!ogDescription) {
-      const meta = document.createElement('meta');
-      meta.setAttribute('property', 'og:description');
-      document.head.appendChild(meta);
-    }
-    document.querySelector('meta[property="og:title"]')?.setAttribute('content', 'Filmmaking Portfolio');
-    document.querySelector('meta[property="og:description"]')?.setAttribute('content', 'A showcase of cinematic projects and visual storytelling.');
-  }, []);
-
   return (
     <motion.div
       initial={{ opacity: 0 }}
