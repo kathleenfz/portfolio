@@ -1,0 +1,28 @@
+{
+  "title": "Web Development",
+  "description": "A collection of my web development projects and applications.",
+  "projects": [
+    {
+      "title": "E-commerce Platform",
+      "description": "A full-stack e-commerce solution built with React and Node.js.",
+      "date": "2024",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "tags": ["React", "Node.js", "MongoDB", "TypeScript"],
+      "link": "https://github.com"
+    },
+    {
+      "title": "Portfolio Generator",
+      "description": "A tool for creating beautiful portfolio websites automatically.",
+      "date": "2023",
+      "tags": ["Next.js", "TailwindCSS", "Supabase"],
+      "link": "https://github.com"
+    },
+    {
+      "title": "Task Management App",
+      "description": "A collaborative task management application with real-time updates.",
+      "date": "2023",
+      "tags": ["React", "Firebase", "Material-UI"],
+      "link": "https://github.com"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Filmmaking",
+  "description": "A showcase of my cinematic projects and visual storytelling.",
+  "films": [
+    {
+      "title": "The City during the Night",
+      "description": "A short film exploring urban life after dark.",
+      "date": "December 2023",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+      "tags": ["Short Film", "Urban", "Documentary"]
+    },
+    {
+      "title": "Digital Dreams",
+      "description": "An experimental film about technology and human connection.",
+      "date": "October 2023",
+      "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+      "tags": ["Experimental", "Technology", "Drama"]
+    },
+    {
+      "title": "Nature's Rhythm",
+      "description": "A documentary about natural patterns and cycles.",
+      "date": "August 2023",
+      "tags": ["Documentary", "Nature", "Environment"]
+    }
+  ]
+} 

@@ -6,7 +6,6 @@ interface ProjectCardProps {
   description: string;
   date: string;
   image?: string;
-  tags?: string[];
   link?: string;
   className?: string;
 }
@@ -16,7 +15,6 @@ const ProjectCard = ({
   description,
   date,
   image,
-  tags,
   link,
   className,
 }: ProjectCardProps) => {
@@ -38,20 +36,8 @@ const ProjectCard = ({
       )}
       <div className="p-6">
         <p className="text-sm text-emerald-700 mb-2">{date}</p>
-        <h3 className="text-xl font-semibold mb-2 text-emerald-900">{title}</h3>
-        <p className="text-emerald-800 mb-4">{description}</p>
-        {tags && (
-          <div className="flex flex-wrap gap-2 mb-4">
-            {tags.map((tag) => (
-              <span
-                key={tag}
-                className="px-2 py-1 bg-emerald-100 rounded-full text-sm text-emerald-700"
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
-        )}
+        <h3 className="text-xl font-semibold mb-2 text-emerald-1200">{title}</h3>
+        <p className="text-emerald-800 mb-8">{description}</p>
         {link && (
           <a
             href={link}

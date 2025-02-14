@@ -1,0 +1,11 @@
+{
+  "profile": {
+    "name": "John Doe",
+    "image": "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
+    "shortBio": "Creative professional with expertise in web development, filmmaking, and writing. Based in San Francisco, I combine technical skills with artistic vision to create compelling digital experiences and stories.",
+    "longBio": [
+      "With over a decade of experience in multiple creative fields, I've developed a unique perspective that allows me to approach projects holistically, considering both technical requirements and artistic merit.",
+      "My work has been featured in various publications and festivals, and I'm always eager to take on new challenges that push the boundaries of digital storytelling."
+    ]
+  }
+}
