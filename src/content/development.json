@@ -1,27 +1,25 @@
 {
   "projects": [
     {
-      "title": "E-commerce Platform",
-      "description": "A full-stack e-commerce solution built with React and Node.js.",
+      "title": "Portfolio Website",
+      "description": "A portfolio website for Satpal Kaler. Using React with Shadcn/UI and TailwindCSS - with AI-assist",
       "date": "2024",
-      "position": "Lead Developer",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-      "tags": ["React", "Node.js", "MongoDB", "TypeScript"],
-      "link": "https://github.com"
+      "image": "webdev/portfolio.jpg",
+      "link": "https://satpalkaler.com"
     },
     {
-      "title": "Portfolio Generator",
-      "description": "A tool for creating beautiful portfolio websites automatically.",
+      "title": "Retirement Calculator",
+      "description": "A handy tool to calculate your inflation-adjusted retirement savings with ease. Using Vuetify and Vue.js with AI-assist",
       "date": "2023",
-      "tags": ["Next.js", "TailwindCSS", "Supabase"],
-      "link": "https://github.com"
+      "image": "webdev/retirement.jpg",
+      "link": "https://retirementcalc.vercel.app/"
     },
     {
-      "title": "Task Management App",
-      "description": "A collaborative task management application with real-time updates.",
-      "date": "2023",
-      "tags": ["React", "Firebase", "Material-UI"],
-      "link": "https://github.com"
+      "title": "Kindle Highlights to Wallpapers",
+      "description": "A tool for creating beautiful wallpapers from your Kindle highlights. Using React with AI-assist",
+      "date": "2024",
+      "image": "webdev/kindle.jpg",
+      "link": "https://kindle-quotes.vercel.app/"
     }
   ]
 }
