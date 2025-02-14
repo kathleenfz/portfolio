@@ -1,6 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import { Mail, FileText, LinkedinIcon } from 'lucide-react';
 import { useIsMobile } from '@/hooks/use-mobile';
+import React from 'react';
 
 const Navigation = () => {
   const location = useLocation();
@@ -15,24 +16,24 @@ const Navigation = () => {
 
   const socialButtons = [
     { 
-      icon: <Mail className="w-5 h-5 text-white" />, 
+      icon: <Mail className="w-5 h-5 text-black" />, 
       href: 'mailto:satpalkaler.sk@gmail.com',
       label: 'Email'
     },
     { 
-      icon: <LinkedinIcon className="w-5 h-5 text-white" />,
+      icon: <LinkedinIcon className="w-5 h-5 text-black" />,
       href: 'https://linkedin.com/in/satpalkaler',
       label: 'LinkedIn'
     },
     { 
-      icon: <FileText className="w-5 h-5 text-white" />, 
+      icon: <FileText className="w-5 h-5 text-black" />, 
       href: '/001 Satpal Kaler Resume.pdf',
       label: 'CV'
     },
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-[#00C18C]/95 backdrop-blur-sm z-50">
+    <nav className="fixed top-0 left-0 right-0 backdrop-blur-sm z-50" style={{ backgroundColor: `hsla(var(--navbar-background) / 0.95)` }}>
       <div className="max-w-4xl mx-auto px-8">
         <div className="flex flex-col items-center py-4">
           {/* Social buttons */}
@@ -43,17 +44,23 @@ const Navigation = () => {
                 href={button.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 rounded-full bg-black/10 hover:bg-black/20 transition-colors"
+                className="p-2 rounded-full hover:bg-black/20 transition-colors"
+                style={{ backgroundColor: `hsla(var(--navbar-background) / 0.1)` }}
                 aria-label={button.label}
               >
-                {button.icon}
+                {React.cloneElement(button.icon, {
+                  className: "w-5 h-5",
+                  style: { color: `hsl(var(--navbar-icon))` }
+                })}
               </a>
             ))}
           </div>
 
           {/* Name - only show if not on home page */}
           {location.pathname !== '/' && (
-            <h1 className="text-5xl font-bold text-white mb-4">Satpal Kaler</h1>
+            <h1 className="text-5xl font-bold mb-4" style={{ color: `hsl(var(--navbar-foreground))` }}>
+              Satpal Kaler
+            </h1>
           )}
 
           {/* Navigation links */}
@@ -63,7 +70,7 @@ const Navigation = () => {
                 key={link.path}
                 to={link.path}
                 className={`navigation-link ${
-                  location.pathname === link.path ? 'text-white underline underline-offset-4' : ''
+                  location.pathname === link.path ? 'text-black underline underline-offset-4' : ''
                 }`}
               >
                 {link.label}

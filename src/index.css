@@ -4,7 +4,11 @@
 
 @layer base {
   :root {
-    --background: 160 84% 39%;
+    --background: 168 100% 29%; /* Change colour of the page background here with HSL values */
+    --navbar-background: 168 100% 42%;  /* Change colour of the navigation bar here with HSL values */
+    --navbar-foreground: 0 0% 0%;       /* Change colour of the navigation bar text here */
+    --navbar-icon: 0 0% 0%;             /* Change colour of the navigation bar icons here */
+    /* Navigation specific colors */
     --foreground: 0 0% 0%;
     --card: 0 0% 100%;
     --card-foreground: 0 0% 0%;
@@ -23,7 +27,9 @@
     --border: 160 84% 39%;
     --input: 160 84% 39%;
     --ring: 160 84% 39%;
-    --radius: 0.5rem;
+    --radius: 0.6rem;
+    
+    
   }
 }
 
@@ -59,12 +65,14 @@
 }
 
 .navigation-link {
-  @apply relative text-base font-medium text-white/90 hover:text-white transition-colors duration-200;
+  @apply relative text-base font-medium transition-colors duration-200;
+  color: hsl(var(--navbar-foreground));
 }
 
 .navigation-link::after {
   content: '';
-  @apply absolute left-0 bottom-0 w-0 h-0.5 bg-white transition-all duration-200;
+  @apply absolute left-0 bottom-0 w-0 h-0.5 transition-all duration-200;
+  background-color: hsl(var(--navbar-foreground));
 }
 
 .navigation-link:hover::after {
