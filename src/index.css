@@ -65,8 +65,15 @@
 }
 
 .navigation-link {
-  @apply relative text-base font-medium transition-colors duration-200;
+  @apply relative font-medium transition-colors duration-200;
   color: hsl(var(--navbar-foreground));
+  font-size: 1rem;  /* Default size for desktop */
+}
+
+@media (max-width: 768px) {
+  .navigation-link {
+    font-size: 0.67rem;  /* Smaller size for mobile */
+  }
 }
 
 .navigation-link::after {

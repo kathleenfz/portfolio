@@ -9,8 +9,8 @@ const Navigation = () => {
 
   const links = [
     { path: '/', label: 'Home' },
-    { path: '/writing', label: 'Writing' },
     { path: '/film-documentary', label: 'Film & Documentary' },
+    { path: '/writing', label: 'Writing' },
     { path: '/webdev', label: 'Web Development' },
   ];
 
@@ -64,14 +64,14 @@ const Navigation = () => {
           )}
 
           {/* Navigation links */}
-          <div className="flex items-center space-x-8">
+          <div className="flex items-center justify-center space-x-8">
             {links.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
-                className={`navigation-link ${
+                className={`navigation-link text-center ${
                   location.pathname === link.path ? 'text-black underline underline-offset-4' : ''
-                }`}
+                } ${isMobile ? 'text-sm' : ''}`}
               >
                 {link.label}
               </Link>
