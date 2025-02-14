@@ -1,26 +1,76 @@
 {
   "writings": [
     {
-      "title": "The Future of Web Development",
-      "description": "An exploration of emerging trends in web development and their impact on user experience.",
-      "date": "March 15, 2024",
-      "position": "Writer",
-      "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
-      "link": "https://google.com"
+      "title": "Nenek Bongkok Tiga",
+      "description": "Produced by Viu Malaysia, a thriller based on local Malaysian folklore & games.",
+      "date": "February 2023",
+      "position": "Scriptwriter",
+      "link": "https://www.viu.com/watch/nenek-bongkok-tiga/1/1",
+      "image": "/writing/NBT.png"
     },
     {
-      "title": "Understanding Modern Cinema",
-      "description": "A deep dive into contemporary filmmaking techniques and storytelling.",
-      "date": "February 28, 2024",
-      "position": "Writer",
-      "link": "https://google.com"
+      "title": "The Virus Didn't Care",
+      "description": "6 Malaysians reflect on how the pandemic changed their lives, highlighting the changes the nation has faced.",
+      "date": "December 2020",
+      "position": "Feature Story",
+      "link": "https://www.thestar.com.my/news/nation/2020/12/06/the-virus-didnt-care",
+      "image": "/writing/Rice.jpg"
     },
     {
-      "title": "The Art of Storytelling",
-      "description": "Exploring narrative techniques across different mediums.",
-      "date": "January 20, 2024",
-      "position": "Writer",
-      "link": "https://google.com"
+      "title": "Urban Poverty in Kuala Lumpur",
+      "description": "M'sians not financially resilient enough for retirement",
+      "date": "August 2020",
+      "position": "News Article",
+      "link": "https://www.thestar.com.my/news/nation/2020/08/10/m039sians-not-financially-resilient-enough-for-retirement",
+      "image": "/writing/InPlainSight.jpg"
+    },
+    {
+      "title": "Obama On Change",
+      "description": "News coverage on Obama speaking about balancing idealism & practicality",
+      "date": "December 2019",
+      "position": "News Article",
+      "link": "https://www.thestar.com.my/news/nation/2019/12/13/change-takes-compromise-says-barack-obama",
+      "image": "/writing/Obama.jpg"
+    },
+    {
+      "title": "Work In Progress",
+      "description": "Migrant workers presented without statistics and figures – as humans",
+      "date": "December 2019",
+      "position": "Feature Story",
+      "link": "https://rage.com.my/workinprogress/",
+      "image": "/writing/Work-In-Progress-1.jpg"
+    },
+    {
+      "title": "Obama in Kuala Lumpur",
+      "description": "News coverage on Obama's visit to Kuala Lumpur",
+      "date": "December 2019",
+      "position": "News Article",
+      "link": "https://www.thestar.com.my/news/nation/2019/12/14/im-still-not-positive-i-was-right",
+      "image": "/writing/Obama-2.jpg"
+    },
+    {
+      "title": "Teoh Beng Hock : 10 Years Later",
+      "description": "10 years after Malaysia's first political death, the family continues its search for justice",
+      "date": "July 2019",
+      "position": "Feature Story",
+      "link": "https://rage.com.my/teohbenghock/",
+      "image": "/writing/Teoh-Beng-Hock.jpg"
+    },
+    {
+      "title": "Big City, Small Living",
+      "description": "When cities become costly to live, microhousing might be the solution forward",
+      "date": "February 2018",
+      "position": "Feature Story",
+      "link": "https://www.rage.com.my/big-city-small-living/",
+      "image": "/writing/microhousing.jpg"
+    },
+    {
+      "title": "Bhenchod",
+      "description": "Contributed a short story to a literary anthology focused on New Malaysian Writing",
+      "date": "March 2017",
+      "position": "Short Story",
+      "link": "https://www.goodreads.com/book/show/34529871-little-basket-2017",
+      "image": "/writing/bhenchod.jpg"
     }
   ]
 }
