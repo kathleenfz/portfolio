@@ -2,12 +2,39 @@
 import { motion } from "framer-motion";
 import { useQuery } from "@tanstack/react-query";
 import { fetchContent } from "@/utils/content";
+import { useEffect } from "react";
 
 const Index = () => {
   const { data: bioData, isLoading } = useQuery({
     queryKey: ['bio'],
     queryFn: () => fetchContent('bio'),
   });
+
+  useEffect(() => {
+    if (bioData) {
+      // Update metadata when bioData is loaded
+      document.title = `${bioData.name} - Portfolio`;
+      const metaDescription = document.querySelector('meta[name="description"]');
+      if (metaDescription) {
+        metaDescription.setAttribute('content', bioData.bio || '');
+      }
+      // Update OpenGraph metadata
+      const ogTitle = document.querySelector('meta[property="og:title"]');
+      const ogDescription = document.querySelector('meta[property="og:description"]');
+      if (!ogTitle) {
+        const meta = document.createElement('meta');
+        meta.setAttribute('property', 'og:title');
+        document.head.appendChild(meta);
+      }
+      if (!ogDescription) {
+        const meta = document.createElement('meta');
+        meta.setAttribute('property', 'og:description');
+        document.head.appendChild(meta);
+      }
+      document.querySelector('meta[property="og:title"]')?.setAttribute('content', `${bioData.name} - Portfolio`);
+      document.querySelector('meta[property="og:description"]')?.setAttribute('content', bioData.bio || '');
+    }
+  }, [bioData]);
 
   if (isLoading) {
     return (
