@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Mail, FileText, LinkedinIcon, Menu, X } from 'lucide-react';
+import { Mail, FileText, LinkedinIcon, Menu, X, Instagram } from 'lucide-react';
 import { useIsMobile } from '@/hooks/use-mobile';
 import React, { useState } from 'react';
 
@@ -27,6 +27,11 @@ const Navigation = () => {
       label: 'LinkedIn'
     },
     { 
+      icon: <Instagram className="w-5 h-5 text-black" />,
+      href: 'https://instagram.com/satpal.kaler',
+      label: 'Instagram'
+    },
+    { 
       icon: <FileText className="w-5 h-5 text-black" />, 
       href: '/001 Satpal Kaler Resume.pdf',
       label: 'CV'
@@ -38,7 +43,7 @@ const Navigation = () => {
       <div className="max-w-4xl mx-auto px-8">
         <div className="flex flex-col items-center py-4">
           {/* Social buttons and hamburger menu in one row */}
-          <div className="flex items-center justify-between w-full mb-4">
+          <div className={`flex items-center w-full mb-4 ${isMobile ? 'justify-between' : 'justify-center'}`}>
             <div className="flex gap-2">
               {socialButtons.map((button, index) => (
                 <a
