@@ -1,25 +1,219 @@
 {
   "films": [
     {
-      "title": "The City during the Night",
-      "description": "A short film exploring urban life after dark.",
-      "date": "December 2023",
+      "title": "Greed of Green",
+      "position": "Video Editor",
+      "description": "A comprehensive investigation into the human and environmental costs of extracting 3 critical energy transition minerals: Cobalt, Nickel, and Lithium.",
+      "date": "December 2024",
+      "link": "https://greedofgreen.earth/p/",
+      "watchLink": "https://www.youtube.com/watch?v=vHmfD514gXI",
+      "image": "filmmaking/green2.jpg"
+    },
+    {
+      "title": "Urban Heat Island In Malaysia",
+      "position": "Producer",
+      "description": "An explainer on the urban heat island effect, how it works and what can we do about it.",
+      "date": "April 2024",
+      "link": "https://www.tiktok.com/@satpal_k/video/7383931507167071496",
+      "watchLink": "",
+      "image": "filmmaking/UHI.jpg"
+    },
+    {
+      "title": "Sheriff and the State of Malaysian Censorship",
+      "position": "Producer",
+      "description": "Censorship isn't just not doing what you've been told you can't - but it's also not even thinking about there being the possibility.",
+      "date": "April 2024",
+      "link": "",
+      "watchLink": "https://www.youtube.com/watch?v=W0nJN1LKWBU",
+      "image": "filmmaking/Sheriff.jpg"
+    },
+    {
+      "title": "Electrics Cars - A Bad Idea in Malaysia?",
+      "position": "Producer",
+      "description": "An in-depth explainer on how we need a cultural shift with Cars in Malaysia.",
+      "date": "November 2023",
+      "link": "",
+      "watchLink": "https://www.instagram.com/p/CyVHW7arudl/",
+      "image": "filmmaking/EVs-MY.jpg"
+    },
+    {
+      "title": "This is Why Kuala Lumpur is So Empty at Night",
+      "position": "Producer",
+      "description": "The population of city center Kuala Lumpur has been declining since the 80s - but why?",
+      "date": "April 2022",
+      "link": "",
+      "watchLink": "https://www.youtube.com/watch?v=ywzPCS78Blg",
+      "image": "filmmaking/pj.jpg"
+    },
+    {
+      "title": "Political Financing",
+      "position": "Supervising Producer",
+      "description": "Malaysia lacks regulations on political funding - as a result dark money controls the political mechanism.",
+      "date": "2021",
+      "link": "https://www.youtube.com/watch?v=cQSUxlQ2Aok",
+      "watchLink": "https://www.youtube.com/watch?v=OCkPiE3gCZY",
+      "image": "filmmaking/polfin.jpg"
+    },
+    {
+      "title": "Expert Opinion",
+      "position": "Series Producer",
+      "description": "We get experts to sit down and talk about current events - trimming the fat and getting to the core of issues.",
+      "date": "2021",
+      "link": "",
+      "watchLink": "https://www.youtube.com/watch?v=ERkMb2Jaey8&list=PLpwLKXASWix9QS0DgiTpTsnockN5TP5Jq",
+      "image": "filmmaking/EO.png"
+    },
+    {
+      "title": "Media Education for All",
+      "position": "Producer",
+      "description": "Media Education For All (ME4A) is a movement composed of educators and media practitioners to bring media and information literacy to all. In partnership with The Fourth.",
+      "date": "2021",
+      "link": "https://me4a.arus.cc/",
+      "watchLink": "https://www.youtube.com/watch?v=Ue05fbi98kw",
+      "image": "filmmaking/me4a.png"
+    },
+    {
+      "title": "Bersih 15 Years Anniversary",
+      "position": "Cinematographer",
+      "description": "The story of Bersih over 15 years, and their commitment to press on for democratic breakthroughs.",
+      "date": "November 2021",
+      "link": "https://www.facebook.com/BERSIH2.0/videos/1774134762975193",
+      "watchLink": "https://www.youtube.com/watch?v=KX4TFwPo0fw",
+      "image": "filmmaking/bersih.png"
+    },
+    {
+      "title": "Ops Integriti",
+      "position": "Series Co-Producer",
+      "description": "A campaign to uphold the integrity of the Malaysian police force.",
+      "date": "September 2021",
+      "link": "https://opsintegriti.thefourth.media/",
+      "watchLink": "https://www.youtube.com/watch?v=-6W6EzF-6Dk",
+      "image": "filmmaking/ops.png"
+    },
+    {
+      "title": "Sama Sama",
+      "position": "Series Co-Producer",
+      "description": "Creating a video series and community to promote empathetic conversations.",
+      "date": "May 2021",
+      "link": "",
+      "watchLink": "https://youtu.be/u_0hExv7vYU",
+      "image": "filmmaking/SamaSama.png"
+    },
+    {
+      "title": "Kita Bukan Kami",
+      "position": "Series Producer",
+      "description": "A social movement to achieve a more inclusive, united Malaysia through empathetic discussions on society's most divisive issues.",
+      "date": "April 2021",
+      "link": "",
+      "watchLink": "https://youtu.be/4ssT1Shqxv8",
+      "image": "filmmaking/kbk.png"
+    },
+    {
+      "title": "Newsflash",
+      "position": "Producer",
+      "description": "A weekly explainer that goes behind the headlines to serve you context and facts.",
+      "date": "2018-2021",
+      "link": "https://www.rage.com.my/newsflash/",
+      "watchLink": "https://www.youtube.com/watch?v=1gJklnTDtlM",
+      "image": "filmmaking/Newsflash-2.jpg"
+    },
+    {
+      "title": "Reunited",
+      "position": "Producer",
+      "description": "Malaysian Covid-19 survivors get a huge Merdeka surprise",
+      "date": "August 2020",
+      "link": "https://facebook.com/thestarRAGE/videos/218147669629228/",
+      "watchLink": "https://www.youtube.com/watch?v=zdl394vQ90U",
+      "image": "filmmaking/Reunited.jpg"
+    },
+    {
+      "title": "In Plain Sight",
+      "position": "Producer",
+      "description": "A two part mini documentary on urban poverty in Kuala Lumpur",
+      "date": "May 2020",
+      "link": "https://www.facebook.com/watch/?v=883393472140305",
+      "watchLink": "https://www.youtube.com/watch?v=CICgUcDBve0",
+      "image": "filmmaking/InPlainSight.jpg"
+    },
+    {
+      "title": "Train to Busan: Horror House",
       "position": "Director",
-      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-      "link": "https://google.com"
+      "description": "A commercial to promote Genting's Train to Busan ride.",
+      "date": "November 2019",
+      "watchLink": "https://www.youtube.com/watch?time_continue=1&v=VxGlsCn26lc&feature=emb_title",
+      "image": "/filmmaking/Train-to-Busan-1.jpg"
     },
     {
-      "title": "Digital Dreams",
-      "description": "An experimental film about technology and human connection.",
-      "date": "October 2023",
-      "image": "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
-      "link": "https://google.com"
+      "title": "Teoh Beng Hock: 10 Years Later",
+      "position": "Producer",
+      "description": "10 years after Malaysia's first political death, the family continues its search for justice.",
+      "date": "July 2019",
+      "link": "http://rage.com.my/teohbenghock",
+      "watchLink": "https://www.youtube.com/watch?v=E2PVBIf4ycg&",
+      "image": "filmmaking/TBH.jpg"
     },
     {
-      "title": "Nature's Rhythm",
-      "description": "A documentary about natural patterns and cycles.",
-      "date": "August 2023",
-      "link": "https://google.com"
-    }
+      "title": "The Malaysian Drug Trade",
+      "position": "Video Editor",
+      "description": "An explainer into how Malaysia plays a role in the worldwide drug trade.",
+      "date": "July 2019",
+      "link": "http://rage.com.my/drugtrade",
+      "watchLink": "https://www.youtube.com/watch?v=GZhprLxrkUk",
+      "image": "filmmaking/TMDT.jpg"
+    },
+    {
+      "title": "Work in Progress",
+      "position": "Producer",
+      "description": "Migrant workers presented without statistics and figures - as humans.",
+      "date": "December 2018",
+      "link": "https://www.youtube.com/watch?v=94UFV4U16Ns",
+      "watchLink": "http://rage.com.my/work-in-progress/",
+      "image": "filmmaking/Work-In-Progress-1.jpg"
+    },
+    {
+      "title": "GE14",
+      "position": "Producer",
+      "description": "Malaysia’s historic 14th general elections – a democractic step forward.",
+      "date": "June 2018",
+      "link": "http://rage.my/digital-marketing-turned-ge14-tide/",
+      "watchLink": "https://www.youtube.com/watch?v=jyJIrbPblQo",
+      "image": "filmmaking/GE14.jpg"
+    },
+    {
+      "title": "Big City, Small Living",
+      "position": "Producer",
+      "description": "With cities becomes costly to live, microhousing might be the solution moving forward.",
+      "date": "Feb 2018",
+      "link": "https://www.youtube.com/watch?v=94UFV4U16Ns",
+      "watchLink": "http://rage.com.my/big-city-small-living/",
+      "image": "/filmmaking/microhousing.jpg"
+    },
+    {
+      "title": "Stand Together",
+      "position": "Video Editor",
+      "description": "A campaign by R.AGE & SP Setia to make Malaysian schools a kinder place.",
+      "date": "July 2018",
+      "link": "https://standtogether.my/",
+      "watchLink": "https://www.youtube.com/watch?v=SyEZ0zZyd_o",
+      "image": "/filmmaking/StandTogether-1.jpg"
+    },
+    {
+      "title": "Student/Trafficked",
+      "position": "Video Editor",
+      "description": "A human-trafficking trail from Bangladesh all the way to Malaysia - exposed.",
+      "date": "August 2017",
+      "link": "https://www.rage.com.my/trafficked/",
+      "watchLink": "https://www.youtube.com/watch?v=OcGxW7MAFTI",
+      "image": "filmmaking/Student-Trafficked.jpg"
+    },
+    {
+      "title": "Two Worlds",
+      "position": "Writer/Director",
+      "description": "An aspiring photojournalist hides behind his career choices when he's unable to end his relationship.",
+      "date": "May 2016",
+      "link": "https://vimeo.com/132365847",
+      "watchLink": "https://www.viddsee.com/video/two-worlds/kyrbo?locale=en",
+      "image": "/filmmaking/Two-Worlds-3.jpg"
+    }   
   ]
-} 
+}

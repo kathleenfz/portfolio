@@ -7,6 +7,7 @@ interface ProjectCardProps {
   position?: string;
   image?: string;
   link?: string;
+  watchLink?: string;
   className?: string;
 }
 
@@ -17,6 +18,7 @@ const ProjectCard = ({
   position,
   image,
   link,
+  watchLink,
   className,
 }: ProjectCardProps) => {
   return (
@@ -42,6 +44,16 @@ const ProjectCard = ({
         )}
         <h3 className="text-xl font-semibold mb-2 text-emerald-1200">{title}</h3>
         <p className="text-emerald-800 mb-8">{description}</p>
+        {watchLink && (
+          <a
+            href={watchLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-emerald-700 mr-5 font-medium hover:underline"
+          >
+            Watch →
+          </a>
+        )}
         {link && (
           <a
             href={link}
