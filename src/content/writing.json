@@ -1,25 +1,26 @@
 {
-  "title": "Writing",
-  "description": "A collection of my articles and essays.",
   "writings": [
     {
       "title": "The Future of Web Development",
       "description": "An exploration of emerging trends in web development and their impact on user experience.",
       "date": "March 15, 2024",
+      "position": "Writer",
       "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
-      "tags": ["Web Development", "Technology", "Future"]
+      "link": "https://google.com"
     },
     {
       "title": "Understanding Modern Cinema",
       "description": "A deep dive into contemporary filmmaking techniques and storytelling.",
       "date": "February 28, 2024",
-      "tags": ["Film", "Art", "Analysis"]
+      "position": "Writer",
+      "link": "https://google.com"
     },
     {
       "title": "The Art of Storytelling",
       "description": "Exploring narrative techniques across different mediums.",
       "date": "January 20, 2024",
-      "tags": ["Writing", "Storytelling", "Creative"]
+      "position": "Writer",
+      "link": "https://google.com"
     }
   ]
 }

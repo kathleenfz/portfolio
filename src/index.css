@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -70,4 +69,8 @@
 
 .navigation-link:hover::after {
   @apply w-full;
+}
+
+.underline {
+  text-decoration: underline;
 }

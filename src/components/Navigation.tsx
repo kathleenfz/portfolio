@@ -1,35 +1,32 @@
-
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, Mail, FileText, Linkedin } from 'lucide-react';
-import { useState } from 'react';
+import { Mail, FileText, LinkedinIcon } from 'lucide-react';
 import { useIsMobile } from '@/hooks/use-mobile';
 
 const Navigation = () => {
   const location = useLocation();
   const isMobile = useIsMobile();
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const links = [
-    { path: '/', label: 'Bio' },
+    { path: '/', label: 'Home' },
     { path: '/writing', label: 'Writing' },
-    { path: '/filmmaking', label: 'Filmmaking' },
-    { path: '/development', label: 'Development' },
+    { path: '/film-documentary', label: 'Film & Documentary' },
+    { path: '/development', label: 'Web Development' },
   ];
 
   const socialButtons = [
     { 
-      icon: <Mail className="w-5 h-5" />, 
-      href: 'mailto:your.email@example.com',
+      icon: <Mail className="w-5 h-5 text-white" />, 
+      href: 'mailto:satpalkaler.sk@gmail.com',
       label: 'Email'
     },
     { 
-      icon: <Linkedin className="w-5 h-5" />, 
-      href: 'https://linkedin.com/in/your-profile',
+      icon: <LinkedinIcon className="w-5 h-5 text-white" />,
+      href: 'https://linkedin.com/in/satpalkaler',
       label: 'LinkedIn'
     },
     { 
-      icon: <FileText className="w-5 h-5" />, 
-      href: '/cv.pdf',
+      icon: <FileText className="w-5 h-5 text-white" />, 
+      href: '/001 Satpal Kaler Resume.pdf',
       label: 'CV'
     },
   ];
@@ -39,7 +36,7 @@ const Navigation = () => {
       <div className="max-w-4xl mx-auto px-8">
         <div className="flex flex-col items-center py-4">
           {/* Social buttons */}
-          <div className="flex gap-4 mb-4">
+          <div className="flex gap-2 mb-4">
             {socialButtons.map((button, index) => (
               <a
                 key={index}
@@ -54,38 +51,20 @@ const Navigation = () => {
             ))}
           </div>
 
-          {/* Name */}
-          <h1 className="text-2xl font-bold text-white mb-4">John Doe</h1>
-
-          {/* Mobile menu button */}
-          {isMobile && (
-            <button
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="absolute right-4 top-4 p-2 text-white"
-              aria-label="Toggle menu"
-            >
-              <Menu className="w-6 h-6" />
-            </button>
+          {/* Name - only show if not on home page */}
+          {location.pathname !== '/' && (
+            <h1 className="text-5xl font-bold text-white mb-4">Satpal Kaler</h1>
           )}
 
           {/* Navigation links */}
-          <div
-            className={`${
-              isMobile
-                ? `${
-                    isMenuOpen ? 'flex' : 'hidden'
-                  } flex-col items-center space-y-4 w-full`
-                : 'flex items-center space-x-8'
-            }`}
-          >
+          <div className="flex items-center space-x-8">
             {links.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
                 className={`navigation-link ${
-                  location.pathname === link.path ? 'text-white' : ''
+                  location.pathname === link.path ? 'text-white underline underline-offset-4' : ''
                 }`}
-                onClick={() => setIsMenuOpen(false)}
               >
                 {link.label}
               </Link>

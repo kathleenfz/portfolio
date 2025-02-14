@@ -1,10 +1,10 @@
-
 import { cn } from "@/lib/utils";
 
 interface ProjectCardProps {
   title: string;
   description: string;
   date: string;
+  position?: string;
   image?: string;
   link?: string;
   className?: string;
@@ -14,6 +14,7 @@ const ProjectCard = ({
   title,
   description,
   date,
+  position,
   image,
   link,
   className,
@@ -21,7 +22,7 @@ const ProjectCard = ({
   return (
     <div
       className={cn(
-        "bg-white/90 backdrop-blur-sm rounded-lg overflow-hidden card-hover border border-white/20",
+        "bg-white/90 rounded-lg overflow-hidden card-hover border border-white/20",
         className
       )}
     >
@@ -35,7 +36,10 @@ const ProjectCard = ({
         </div>
       )}
       <div className="p-6">
-        <p className="text-sm text-emerald-700 mb-2">{date}</p>
+        <p className="text-sm text-emerald-600 mb-1">{date}</p>
+        {position && (
+          <p className="text-xl font-semibold text-emerald-700 mb-2">{position.toUpperCase()}</p>
+        )}
         <h3 className="text-xl font-semibold mb-2 text-emerald-1200">{title}</h3>
         <p className="text-emerald-800 mb-8">{description}</p>
         {link && (
@@ -45,7 +49,7 @@ const ProjectCard = ({
             rel="noopener noreferrer"
             className="text-emerald-700 font-medium hover:underline"
           >
-            Learn more →
+            View More →
           </a>
         )}
       </div>
