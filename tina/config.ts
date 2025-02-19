@@ -15,6 +15,28 @@ export default defineConfig({
   // Get this from tina.io
   token: process.env.TINA_TOKEN,
 
+  cmsCallback: (cms) => {
+    // Disable automatic Git pushing
+    cms.flags.set("githubBatchMode", {
+      manual: true
+    });
+
+    // Add a custom action button in the sidebar
+    cms.sidebar.buttons.add("Push Changes", {
+      icon: "upload", // You can choose a different icon
+      onClick: async () => {
+        try {
+          await cms.api.github.push();
+          cms.alerts.success("Successfully pushed changes to GitHub!");
+        } catch (e) {
+          cms.alerts.error("Failed to push changes");
+        }
+      },
+    });
+
+    return cms;
+  },
+
   build: {
     outputFolder: "admin",
     publicFolder: "public",
