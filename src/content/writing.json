@@ -6,7 +6,7 @@
       "date": "February 2023",
       "position": "Scriptwriter",
       "link": "https://www.viu.com/watch/nenek-bongkok-tiga/1/1",
-      "image": "/writing/NBT.png"
+      "image": "writing/NBT.webp"
     },
     {
       "title": "The Virus Didn't Care",
@@ -14,7 +14,7 @@
       "date": "December 2020",
       "position": "Feature Story",
       "link": "https://www.thestar.com.my/news/nation/2020/12/06/the-virus-didnt-care",
-      "image": "/writing/Rice.jpg"
+      "image": "writing/Rice.webp"
     },
     {
       "title": "Urban Poverty in Kuala Lumpur",
@@ -22,7 +22,7 @@
       "date": "August 2020",
       "position": "News Article",
       "link": "https://www.thestar.com.my/news/nation/2020/08/10/m039sians-not-financially-resilient-enough-for-retirement",
-      "image": "/writing/InPlainSight.jpg"
+      "image": "writing/InPlainSight.webp"
     },
     {
       "title": "Obama On Change",
@@ -30,7 +30,7 @@
       "date": "December 2019",
       "position": "News Article",
       "link": "https://www.thestar.com.my/news/nation/2019/12/13/change-takes-compromise-says-barack-obama",
-      "image": "/writing/Obama.jpg"
+      "image": "writing/Obama.webp"
     },
     {
       "title": "Work In Progress",
@@ -38,7 +38,7 @@
       "date": "December 2019",
       "position": "Feature Story",
       "link": "https://rage.com.my/workinprogress/",
-      "image": "/writing/Work-In-Progress-1.jpg"
+      "image": "writing/Work-In-Progress-1.webp"
     },
     {
       "title": "Obama in Kuala Lumpur",
@@ -46,7 +46,7 @@
       "date": "December 2019",
       "position": "News Article",
       "link": "https://www.thestar.com.my/news/nation/2019/12/14/im-still-not-positive-i-was-right",
-      "image": "/writing/Obama-2.jpg"
+      "image": "writing/Obama-2.webp"
     },
     {
       "title": "Teoh Beng Hock : 10 Years Later",
@@ -54,7 +54,7 @@
       "date": "July 2019",
       "position": "Feature Story",
       "link": "https://rage.com.my/teohbenghock/",
-      "image": "/writing/Teoh-Beng-Hock.jpg"
+      "image": "writing/Teoh-Beng-Hock.webp"
     },
     {
       "title": "Big City, Small Living",
@@ -62,7 +62,7 @@
       "date": "February 2018",
       "position": "Feature Story",
       "link": "https://www.rage.com.my/big-city-small-living/",
-      "image": "/writing/microhousing.jpg"
+      "image": "writing/microhousing.webp"
     },
     {
       "title": "Bhenchod",
@@ -70,7 +70,7 @@
       "date": "March 2017",
       "position": "Short Story",
       "link": "https://www.goodreads.com/book/show/34529871-little-basket-2017",
-      "image": "/writing/bhenchod.jpg"
+      "image": "writing/bhenchod.webp"
     }
   ]
 }

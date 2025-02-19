@@ -4,18 +4,18 @@
       "title": "Portfolio Website",
       "description": "A portfolio website for Satpal Kaler. Using React with Shadcn/UI and TailwindCSS - with AI-assist",
       "date": "2024",
-      "image": "webdev/portfolio.jpg",
+      "image": "webdev/portfolio.webp",
       "link": "https://satpalkaler.com"
     },
     {
       "title": "Retirement Calculator",
       "description": "A handy tool to calculate your inflation-adjusted retirement savings with ease. Using Vuetify and Vue.js with AI-assist",
       "date": "2023",
-      "image": "webdev/retirement.jpg",
+      "image": "webdev/retirement.webp",
       "link": "https://retirementcalc.vercel.app/"
     },
     {
-      "title": "Kindle Highlights to Wallpapers",
+      "title": "Kindle Highlights to Wallpapers", 
       "description": "A tool for creating beautiful wallpapers from your Kindle highlights. Using React with AI-assist",
       "date": "2024",
       "image": "webdev/kindle.jpg",
