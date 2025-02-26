@@ -15,10 +15,10 @@
       "link": "https://retirementcalc.vercel.app/"
     },
     {
-      "title": "Kindle Highlights to Wallpapers", 
+      "title": "Kindle Highlights to Wallpapers",
       "description": "A tool for creating beautiful wallpapers from your Kindle highlights. Using React with AI-assist",
       "date": "2024",
-      "image": "webdev/kindle.jpg",
+      "image": "webdev/kindle.webp",
       "link": "https://kindle-quotes.vercel.app/"
     }
   ]
