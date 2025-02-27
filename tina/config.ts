@@ -198,6 +198,29 @@ export default defineConfig({
                 name: "link",
                 label: "Link",
               },
+              {
+                type: "object",
+                name: "technologies",
+                label: "Technologies",
+                list: true,
+                ui: {
+                  itemProps: (item) => {
+                    return { label: item?.name }
+                  },
+                },
+                fields: [
+                  {
+                    type: "string",
+                    name: "name",
+                    label: "Name",
+                  },
+                  {
+                    type: "image",
+                    name: "logo",
+                    label: "Logo",
+                  },
+                ],
+              },
             ],
           },
         ],

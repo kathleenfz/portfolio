@@ -8,6 +8,10 @@ interface ProjectCardProps {
   image?: string;
   link?: string;
   watchLink?: string;
+  technologies?: Array<{
+    name: string;
+    logo: string;
+  }>;
   className?: string;
 }
 
@@ -19,6 +23,7 @@ const ProjectCard = ({
   image,
   link,
   watchLink,
+  technologies,
   className,
 }: ProjectCardProps) => {
   return (
@@ -43,7 +48,25 @@ const ProjectCard = ({
           <p className="text-xl font-semibold text-emerald-700 mb-2">{position.toUpperCase()}</p>
         )}
         <h3 className="text-xl font-semibold mb-2 text-emerald-1200">{title}</h3>
-        <p className="text-emerald-800 mb-8">{description}</p>
+        <p className="text-emerald-800 mb-4">{description}</p>
+        
+        {technologies && (
+          <div className="flex gap-3 mb-4">
+            {technologies.map((tech) => (
+              <div key={tech.name} className="relative group">
+                <img
+                  src={tech.logo}
+                  alt={tech.name}
+                  className="w-8 h-8 rounded-full object-contain"
+                />
+                <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 text-sm text-white bg-emerald-700 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap">
+                  {tech.name}
+                </span>
+              </div>
+            ))}
+          </div>
+        )}
+
         {watchLink && (
           <a
             href={watchLink}
