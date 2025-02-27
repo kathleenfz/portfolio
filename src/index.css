@@ -90,3 +90,7 @@
 .underline {
   text-decoration: underline;
 }
+
+html {
+  overflow-y: scroll; /* Always show vertical scrollbar */
+}
