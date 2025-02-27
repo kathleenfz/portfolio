@@ -9,19 +9,19 @@
       "technologies": [
         {
           "name": "React",
-          "logo": "public/webdev/react.webp"
+          "logo": "/webdev/react.webp"
         },
         {
           "name": "Shadcn/UI",
-          "logo": "public/webdev/shadcn.webp"
+          "logo": "/webdev/shadcn.webp"
         },
         {
           "name": "TailwindCSS",
-          "logo": "public/webdev/tailwind.webp"
+          "logo": "/webdev/tailwind.webp"
         },
         {
           "name": "Javascript",
-          "logo": "public/webdev/javascript.webp"
+          "logo": "/webdev/javascript.webp"
         }
       ]
     },
@@ -34,15 +34,15 @@
       "technologies": [
         {
           "name": "Vue.js",
-          "logo": "public/webdev/vuejs.webp"
+          "logo": "/webdev/vuejs.webp"
         },
         {
           "name": "Vuetify",
-          "logo": "public/webdev/vuetify.webp"
+          "logo": "/webdev/vuetify.webp"
         },
         {
           "name": "Javascript",
-          "logo": "public/webdev/javascript.webp"
+          "logo": "/webdev/javascript.webp"
         }
       ]
     },
@@ -55,11 +55,11 @@
       "technologies": [
         {
           "name": "React",
-          "logo": "public/webdev/react.webp"
+          "logo": "/webdev/react.webp"
         },
         {
           "name": "Javascript",
-          "logo": "public/webdev/javascript.webp"
+          "logo": "/webdev/javascript.webp"
         }
       ]
     }
