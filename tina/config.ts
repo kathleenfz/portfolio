@@ -203,21 +203,17 @@ export default defineConfig({
                 name: "technologies",
                 label: "Technologies",
                 list: true,
-                ui: {
-                  itemProps: (item) => {
-                    return { label: item?.name }
-                  },
-                },
                 fields: [
                   {
                     type: "string",
                     name: "name",
                     label: "Name",
+                    required: true,
                   },
                   {
                     type: "string",
                     name: "logo",
-                    label: "Logo",
+                    label: "Logo Path",
                   },
                 ],
               },
