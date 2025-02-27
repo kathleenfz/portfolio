@@ -215,7 +215,7 @@ export default defineConfig({
                     label: "Name",
                   },
                   {
-                    type: "image",
+                    type: "string",
                     name: "logo",
                     label: "Logo",
                   },
