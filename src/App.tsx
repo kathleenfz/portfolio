@@ -10,7 +10,6 @@ import Navigation from "./components/Navigation";
 import Index from "./pages/Index";
 import Writing from "./pages/Writing";
 import Filmmaking from "./pages/Filmmaking";
-import WebDevelopment from "./pages/WebDevelopment";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,7 +25,6 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/writing" element={<Writing />} />
           <Route path="/film-documentary" element={<Filmmaking />} />
-          <Route path="/webdev" element={<WebDevelopment />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

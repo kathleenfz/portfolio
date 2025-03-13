@@ -22,15 +22,14 @@ const Navigation = () => {
 
   const links = [
     { path: '/', label: 'Home' },
-    { path: '/film-documentary', label: 'Film & Documentary' },
-    { path: '/writing', label: 'Writing' },
-    { path: '/webdev', label: 'Web Development' },
+    { path: '/articles', label: 'Articles' },
+    { path: '/copywriting', label: 'Copywriting' },
   ];
 
   const socialButtons = [
     { 
       icon: <Mail className="w-5 h-5 text-black" />, 
-      href: 'mailto:satpalkaler.sk@gmail.com',
+      href: 'mailto:kathleenfz142@gmail.com ',
       label: 'Email',
       onClick: handleEmailClick
     },

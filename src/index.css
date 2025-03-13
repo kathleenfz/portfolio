@@ -4,8 +4,8 @@
 
 @layer base {
   :root {
-    --background: 168 100% 29%; /* Change colour of the page background here with HSL values */
-    --navbar-background: 168 100% 42%;  /* Change colour of the navigation bar here with HSL values */
+    --background: 151 49% 14%; /* Change colour of the page background here with HSL values */
+    --navbar-background: 31 34% 62%;  /* Change colour of the navigation bar here with HSL values */
     --navbar-foreground: 0 0% 0%;       /* Change colour of the navigation bar text here */
     --navbar-icon: 0 0% 0%;             /* Change colour of the navigation bar icons here */
     /* Navigation specific colors */
