@@ -8,3 +8,6 @@ Go to index.css and change the colors of the following:
 --navbar-background: 168 100% 42%;
 --navbar-foreground: 0 0% 0%;
 --navbar-icon: 0 0% 0%;
+
+
+need to change google tag in index.html
