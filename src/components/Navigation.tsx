@@ -93,13 +93,6 @@ const Navigation = () => {
               )}
             </div>
 
-            {/* Name - only show if not on home page */}
-            {location.pathname !== '/' && (
-              <h1 className="text-5xl font-bold mb-4" style={{ color: `hsl(var(--navbar-foreground))` }}>
-                Satpal Kaler
-              </h1>
-            )}
-
             {/* Navigation links */}
             <div className={`${isMobile ? 'flex flex-col items-center space-y-4' : 'flex items-center justify-center space-x-8'} ${
               isMobile && !isMenuOpen ? 'hidden' : ''

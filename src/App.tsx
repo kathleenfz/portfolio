@@ -8,9 +8,9 @@ import { SpeedInsights } from "@vercel/speed-insights/react";
 
 import Navigation from "./components/Navigation";
 import Index from "./pages/Index";
-import Writing from "./pages/Writing";
-import Filmmaking from "./pages/Filmmaking";
 import NotFound from "./pages/NotFound";
+import Copywriting from "./pages/Copywriting";
+import Articles from "./pages/Articles";
 
 const queryClient = new QueryClient();
 
@@ -23,8 +23,8 @@ const App = () => (
         <Navigation />
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/writing" element={<Writing />} />
-          <Route path="/film-documentary" element={<Filmmaking />} />
+          <Route path="/articles" element={<Articles />} />
+          <Route path="/copywriting" element={<Copywriting />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

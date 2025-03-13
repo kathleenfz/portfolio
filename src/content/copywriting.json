@@ -1,0 +1,28 @@
+{
+  "copywriting": [
+    {
+      "title": "Nenek Bongkok Tiga",
+      "description": "Produced by Viu Malaysia, a thriller based on local Malaysian folklore & games.",
+      "date": "February 2023",
+      "position": "Scriptwriter",
+      "link": "https://www.viu.com/watch/nenek-bongkok-tiga/1/1",
+      "image": "writing/NBT.webp"
+    },
+    {
+      "title": "The Virus Didn't Care",
+      "description": "6 Malaysians reflect on how the pandemic changed their lives, highlighting the changes the nation has faced.",
+      "date": "December 2020",
+      "position": "Feature Story",
+      "link": "https://www.thestar.com.my/news/nation/2020/12/06/the-virus-didnt-care",
+      "image": "writing/Rice.webp"
+    },
+    {
+      "title": "Urban Poverty in Kuala Lumpur",
+      "description": "M'sians not financially resilient enough for retirement",
+      "date": "August 2020",
+      "position": "News Article",
+      "link": "https://www.thestar.com.my/news/nation/2020/08/10/m039sians-not-financially-resilient-enough-for-retirement",
+      "image": "writing/InPlainSight.webp"
+    }
+  ]
+}

@@ -29,12 +29,12 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        name: "filmmaking",
-        label: "Filmmaking",
+        name: "articles",
+        label: "Articles",
         path: "src/content",
         format: "json",
         match: {
-          include: "filmmaking",
+          include: "articles",
         },
         fields: [
           {
@@ -79,11 +79,6 @@ export default defineConfig({
               },
               {
                 type: "string",
-                name: "watchLink",
-                label: "Watch Link",
-              },
-              {
-                type: "string",
                 name: "image",
                 label: "Image",
               },
@@ -92,18 +87,18 @@ export default defineConfig({
         ],
       },
       {
-        name: "writing",
-        label: "Writing",
+        name: "copywriting",
+        label: "Copywriting",
         path: "src/content",
         format: "json",
         match: {
-          include: "writing",
+          include: "copywriting",
         },
         fields: [
           {
             type: "object",
-            name: "writings",
-            label: "Writings",
+            name: "copywriting",
+            label: "Copywriting",
             list: true,
             ui: {
               itemProps: (item) => {
@@ -144,83 +139,6 @@ export default defineConfig({
                 type: "string",
                 name: "image",
                 label: "Image",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        name: "development",
-        label: "Development",
-        path: "src/content",
-        format: "json",
-        match: {
-          include: "development",
-        },
-        fields: [
-          {
-            type: "object",
-            name: "projects",
-            label: "Projects",
-            list: true,
-            ui: {
-              itemProps: (item) => {
-                return { label: item?.title }
-              },
-            },
-            fields: [
-              {
-                type: "string",
-                name: "title",
-                label: "Title",
-                required: true,
-              },
-              {
-                type: "string",
-                name: "description",
-                label: "Description",
-                ui: {
-                  component: "textarea",
-                },
-              },
-              {
-                type: "string",
-                name: "date",
-                label: "Date",
-              },
-              {
-                type: "string",
-                name: "image",
-                label: "Image",
-              },
-              {
-                type: "string",
-                name: "link",
-                label: "Link",
-              },
-              {
-                type: "object",
-                name: "technologies",
-                label: "Technologies",
-                list: true,
-                ui: {
-                  itemProps: (item) => {
-                    return { label: item?.name }
-                  },
-                },
-                fields: [
-                  {
-                    type: "string",
-                    name: "name",
-                    label: "Name",
-                    required: true,
-                  },
-                  {
-                    type: "string",
-                    name: "logo",
-                    label: "Logo Path",
-                  },
-                ],
               },
             ],
           },

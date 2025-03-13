@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import ProjectCard from "@/components/ProjectCard";
-import content from "@/content/writing.json";
+import content from "@/content/copywriting.json";
 
-const Writing = () => {
+const Copywriting = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -12,8 +12,8 @@ const Writing = () => {
     >
       <div className="max-w-5xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {content.writings.map((writing) => (
-            <ProjectCard key={writing.title} {...writing} />
+          {content.copywriting.map((copywriting) => (
+            <ProjectCard key={copywriting.title} {...copywriting} />
           ))}
         </div>
       </div>
@@ -21,4 +21,4 @@ const Writing = () => {
   );
 };
 
-export default Writing;
+export default Copywriting;

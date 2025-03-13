@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import ProjectCard from "@/components/ProjectCard";
-import content from "@/content/filmmaking.json";
+import content from "@/content/articles.json";
 
-const Filmmaking = () => {
+const Articles = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -12,8 +12,8 @@ const Filmmaking = () => {
     >
       <div className="max-w-5xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {content.films.map((film) => (
-            <ProjectCard key={film.title} {...film} />
+          {content.articles.map((article) => (
+            <ProjectCard key={article.title} {...article} />
           ))}
         </div>
       </div>
@@ -21,4 +21,4 @@ const Filmmaking = () => {
   );
 };
 
-export default Filmmaking;
+export default Articles;
