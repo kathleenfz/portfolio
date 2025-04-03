@@ -11,3 +11,4 @@ Go to index.css and change the colors of the following:
 
 
 need to change google tag in index.html
+need to add CV
