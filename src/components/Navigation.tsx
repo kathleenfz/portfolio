@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Mail, FileText, LinkedinIcon, Menu, X, Instagram } from 'lucide-react';
+import { Mail, FileText, LinkedinIcon, Menu, } from 'lucide-react';
 import { useIsMobile } from '@/hooks/use-mobile';
 import React, { useState, useEffect } from 'react';
 
@@ -34,18 +34,13 @@ const Navigation = () => {
       onClick: handleEmailClick
     },
     { 
-      icon: <Instagram className="w-5 h-5 text-black" />,
-      href: 'https://instagram.com/satpal.kaler',
-      label: 'Instagram'
-    },
-    { 
       icon: <FileText className="w-5 h-5 text-black" />, 
       href: '/001 Satpal Kaler Resume.pdf',
       label: 'CV'
     },
     { 
       icon: <LinkedinIcon className="w-5 h-5 text-black" />,
-      href: 'https://linkedin.com/in/satpalkaler',
+      href: 'https://www.linkedin.com/in/kathleenfz142/',
       label: 'LinkedIn'
     },
   ];
