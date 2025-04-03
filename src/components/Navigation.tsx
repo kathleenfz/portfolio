@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Mail, FileText, Menu, Linkedin, X } from 'lucide-react';
+import { Mail, FileText, LinkedinIcon, Menu, } from 'lucide-react';
 import { useIsMobile } from '@/hooks/use-mobile';
 import React, { useState, useEffect } from 'react';
 
@@ -15,7 +15,7 @@ const Navigation = () => {
 
   const handleEmailClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
-    navigator.clipboard.writeText('kathleenfz142@gmail.com');
+    navigator.clipboard.writeText('satpalkaler.sk@gmail.com');
     setShowNotification(true);
     setTimeout(() => setShowNotification(false), 2000);
   };
@@ -39,7 +39,7 @@ const Navigation = () => {
       label: 'CV'
     },
     { 
-      icon: <Linkedin className="w-5 h-5 text-black" />,
+      icon: <LinkedinIcon className="w-5 h-5 text-black" />,
       href: 'https://www.linkedin.com/in/kathleenfz142/',
       label: 'LinkedIn'
     },
