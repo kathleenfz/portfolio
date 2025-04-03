@@ -39,12 +39,14 @@ export default defineConfig({
         fields: [
           {
             type: "object",
-            name: "films",
-            label: "Films",
+            name: "articles",
+            label: "Articles",
             list: true,
             ui: {
               itemProps: (item) => {
-                return { label: item?.title }
+                return {
+                  label: item.title,
+                };
               },
             },
             fields: [
@@ -80,7 +82,7 @@ export default defineConfig({
               {
                 type: "string",
                 name: "image",
-                label: "Image",
+                label: "Image Path",
               },
             ],
           },
@@ -102,7 +104,9 @@ export default defineConfig({
             list: true,
             ui: {
               itemProps: (item) => {
-                return { label: item?.title }
+                return {
+                  label: item.title,
+                };
               },
             },
             fields: [
@@ -111,6 +115,11 @@ export default defineConfig({
                 name: "title",
                 label: "Title",
                 required: true,
+              },
+              {
+                type: "string",
+                name: "position",
+                label: "Position",
               },
               {
                 type: "string",
@@ -127,25 +136,20 @@ export default defineConfig({
               },
               {
                 type: "string",
-                name: "position",
-                label: "Position",
-              },
-              {
-                type: "string",
                 name: "link",
                 label: "Link",
               },
               {
                 type: "string",
                 name: "image",
-                label: "Image",
+                label: "Image Path",
               },
             ],
           },
         ],
       },
       {
-        name: "index",
+        name: "profile",
         label: "Profile",
         path: "src/content",
         format: "json",
@@ -167,7 +171,7 @@ export default defineConfig({
               {
                 type: "string",
                 name: "image",
-                label: "Image",
+                label: "Profile Image",
               },
               {
                 type: "string",
@@ -183,13 +187,5 @@ export default defineConfig({
         ],
       },
     ],
-  },
-  search: {
-    tina: {
-      indexerToken: 'ae4d4c468fc82b4398d3980a54b279d96647a176',
-      stopwordLanguages: ['eng'],
-    },
-    indexBatchSize: 100,
-    maxSearchIndexFieldLength: 100,
   },
 });
