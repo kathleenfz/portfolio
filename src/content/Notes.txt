@@ -8,7 +8,10 @@ Go to index.css and change the colors of the following:
 --navbar-background: 168 100% 42%;
 --navbar-foreground: 0 0% 0%;
 --navbar-icon: 0 0% 0%;
+<<<<<<< HEAD
 
 
 need to change google tag in index.html
 need to add CV
+=======
+>>>>>>> parent of f584bc8 (minor)
