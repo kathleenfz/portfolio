@@ -29,29 +29,164 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        name: "post",
-        label: "Posts",
-        path: "content/posts",
+        name: "articles",
+        label: "Articles",
+        path: "src/content",
+        format: "json",
+        match: {
+          include: "articles",
+        },
         fields: [
           {
-            type: "string",
-            name: "title",
-            label: "Title",
-            isTitle: true,
-            required: true,
-          },
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
+            type: "object",
+            name: "articles",
+            label: "Articles",
+            list: true,
+            ui: {
+              itemProps: (item) => {
+                return {
+                  label: item.title,
+                };
+              },
+            },
+            fields: [
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+                required: true,
+              },
+              {
+                type: "string",
+                name: "position",
+                label: "Position",
+              },
+              {
+                type: "string",
+                name: "description",
+                label: "Description",
+                ui: {
+                  component: "textarea",
+                },
+              },
+              {
+                type: "string",
+                name: "date",
+                label: "Date",
+              },
+              {
+                type: "string",
+                name: "link",
+                label: "Link",
+              },
+              {
+                type: "string",
+                name: "image",
+                label: "Image Path",
+              },
+            ],
           },
         ],
-        ui: {
-          // This is an DEMO router. You can remove this to fit your site
-          router: ({ document }) => `/demo/blog/${document._sys.filename}`,
+      },
+      {
+        name: "copywriting",
+        label: "Copywriting",
+        path: "src/content",
+        format: "json",
+        match: {
+          include: "copywriting",
         },
+        fields: [
+          {
+            type: "object",
+            name: "copywriting",
+            label: "Copywriting",
+            list: true,
+            ui: {
+              itemProps: (item) => {
+                return {
+                  label: item.title,
+                };
+              },
+            },
+            fields: [
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+                required: true,
+              },
+              {
+                type: "string",
+                name: "position",
+                label: "Position",
+              },
+              {
+                type: "string",
+                name: "description",
+                label: "Description",
+                ui: {
+                  component: "textarea",
+                },
+              },
+              {
+                type: "string",
+                name: "date",
+                label: "Date",
+              },
+              {
+                type: "string",
+                name: "link",
+                label: "Link",
+              },
+              {
+                type: "string",
+                name: "image",
+                label: "Image Path",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "profile",
+        label: "Profile",
+        path: "src/content",
+        format: "json",
+        match: {
+          include: "index",
+        },
+        fields: [
+          {
+            type: "object",
+            name: "profile",
+            label: "Profile",
+            fields: [
+              {
+                type: "string",
+                name: "name",
+                label: "Name",
+                required: true,
+              },
+              {
+                type: "string",
+                name: "image",
+                label: "Profile Image",
+              },
+              {
+                type: "string",
+                name: "Bio",
+                label: "Biography",
+                list: true,
+                ui: {
+                  component: "textarea",
+                },
+              },
+            ],
+          },
+        ],
       },
     ],
   },
 });
+
