@@ -1,28 +1,28 @@
 {
   "copywriting": [
     {
-      "title": "Nenek Bongkok Tiga",
-      "description": "Produced by Viu Malaysia, a thriller based on local Malaysian folklore & games.",
-      "date": "February 2023",
+      "title": "Indra Nooyi",
       "position": "Scriptwriter",
-      "link": "https://www.viu.com/watch/nenek-bongkok-tiga/1/1",
-      "image": "writing/NBT.webp"
+      "description": "Post-event promotion for live interview and keynote session with Indra Nooyi, former CEO of PepsiCo.",
+      "date": "March 2025",
+      "link": "https://www.linkedin.com/posts/aurora-live_leadership-innovation-indranooyi-activity-7272882907285733376-tw9N/",
+      "image": "/Copywriting/Indra_Nooyi_AL.jpg"
     },
     {
-      "title": "The Virus Didn't Care",
-      "description": "6 Malaysians reflect on how the pandemic changed their lives, highlighting the changes the nation has faced.",
-      "date": "December 2020",
-      "position": "Feature Story",
-      "link": "https://www.thestar.com.my/news/nation/2020/12/06/the-virus-didnt-care",
-      "image": "writing/Rice.webp"
+      "title": "Alora Residences",
+      "position": "Writer",
+      "description": "An advertorial for Avaland Berhad's new property, Alora Residences.",
+      "date": "March 2024",
+      "link": "https://www.iproperty.com.my/guides/alora-residences-subang-jaya-inspired-living-within-greenery-87302",
+      "image": "Copywriting/Alora_Residences_iProperty.jpg"
     },
     {
-      "title": "Urban Poverty in Kuala Lumpur",
-      "description": "M'sians not financially resilient enough for retirement",
-      "date": "August 2020",
-      "position": "News Article",
-      "link": "https://www.thestar.com.my/news/nation/2020/08/10/m039sians-not-financially-resilient-enough-for-retirement",
-      "image": "writing/InPlainSight.webp"
+      "title": "IFS",
+      "position": "Writer",
+      "description": "A case study with IFS on their partnership with Management Events.",
+      "date": "January 2024",
+      "link": "https://www.managementevents.com/references/cs-007",
+      "image": "Copywriting/IFS_ME.pjg"
     }
   ]
 }
