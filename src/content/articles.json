@@ -6,7 +6,7 @@
       "description": "Interview with Karen Kjeldsen, Head of IT Security at Sparekassen Kronjylland on her past challenges in IT security, outlook for the coming year, and experience with the Aurora Live executive business network.",
       "date": "March 2025",
       "link": "https://www.auroralive.com/insights/aurora-live-member-spotlight-karen-kjeldsen-head-of-it-security-sparekassen-kronjylland",
-      "image": "/Articles/Karen Kjeldsen - Aurora Live.jpg"
+      "image": "/Articles/Karen_Kjeldsen_AL.jpg"
     },
     {
       "title": "Enterprise Architecture & Security: A Risk-based Roadmap for Integration",
@@ -14,23 +14,7 @@
       "description": "Roadmap for security integration within enterprise architecture for EU-based tech leaders who are looking to close their security gaps.",
       "date": "September 2024",
       "link": "https://www.auroralive.com/insights/enterprise-architecture-security-a-risk-based-roadmap-for-integration",
-      "image": "/Articles/Enterprise Architecture - Aurora Live.jpg"
-    },
-    {
-      "title": "4 common mistakes Malaysians make when applying for a home loan/financing",
-      "position": "Writer",
-      "description": "A guide on home loan financing for first-time homebuyers in Malaysia.",
-      "date": "March 2021",
-      "link": "https://www.iproperty.com.my/guides/4-common-mistakes-malaysians-make-when-applying-for-a-home-loan-financing-sp-42036",
-      "image": "/Articles/Home Loan Financing Mistakes - iProperty.jpg"
-    },
-    {
-      "title": "Sustainable Alternatives to Fast Fashion",
-      "position": "Writer",
-      "description": "An analysis on the global problem of fast fashion problem and sustainable alternatives",
-      "date": "April 2023",
-      "link": "https://earth.org/sustainable-alternatives-to-fast-fashion/",
-      "image": "/Articles/Sustainable Fashion - Earth.jpg"
+      "image": "/Articles/Enterprise_ Architecture_AL.jpg"
     },
     {
       "title": "Markus Gull: Great Leadership Begins with Great Storytelling",
@@ -38,7 +22,23 @@
       "description": "Interview with Markus Gull, founder of The New Story Academy, on how storytelling and effective leadership can drive effective digital transformation and empower businesses to thrive in an evolving digital landscape.",
       "date": "April 2024",
       "link": "https://www.auroralive.com/insights/markus-gull-great-leadership-begins-with-great-storytelling",
-      "image": "/Articles/Markus Gull - Aurora Live.jpg"
+      "image": "/Articles/Markus_Gull_AL.jpg"
+    },
+    {
+      "title": "Sustainable Alternatives to Fast Fashion",
+      "position": "Writer",
+      "description": "An analysis on the global problem of fast fashion problem and sustainable alternatives",
+      "date": "April 2023",
+      "link": "https://earth.org/sustainable-alternatives-to-fast-fashion/",
+      "image": "/Articles/Sustainable_Fashion_Earth.jpg"
+    },
+    {
+      "title": "4 common mistakes Malaysians make when applying for a home loan/financing",
+      "position": "Writer",
+      "description": "A guide on home loan financing for first-time homebuyers in Malaysia.",
+      "date": "March 2021",
+      "link": "https://www.iproperty.com.my/guides/4-common-mistakes-malaysians-make-when-applying-for-a-home-loan-financing-sp-42036",
+      "image": "/Articles/Home_Loan_Financing_Mistakes_iProperty.jpg"
     }
   ]
 }
