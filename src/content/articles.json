@@ -1,12 +1,12 @@
 {
   "articles": [
     {
-      "title": "Karen Kjeldsen, Head of IT Security, Sparekassen Kronjylland",
+      "title": "5 ERP Security Best Practices & Case Studies For Security Leaders",
       "position": "Writer",
-      "description": "Interview with Karen Kjeldsen, Head of IT Security at Sparekassen Kronjylland on her past challenges in IT security, outlook for the coming year, and experience with the Aurora Live executive business network.",
+      "description": "Thought leadership article on ERP security for IT security leaders in Europe.",
       "date": "March 2025",
-      "link": "https://www.auroralive.com/insights/aurora-live-member-spotlight-karen-kjeldsen-head-of-it-security-sparekassen-kronjylland",
-      "image": "/Articles/Karen_Kjeldsen_AL.jpg"
+      "link": "https://www.auroralive.com/insights/5-erp-security-best-practices-case-studies-for-security-leaders",
+      "image": "/Articles/ERP_Security_AL.jpg"
     },
     {
       "title": "Enterprise Architecture & Security: A Risk-based Roadmap for Integration",
