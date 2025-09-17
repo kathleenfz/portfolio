@@ -9,6 +9,22 @@
       "image": "/Copywriting/Indra_Nooyi_AL.jpg"
     },
     {
+      "title": "PODCAST: Petra Ålund, the CTO of SEB",
+      "position": "Producer/Scriptwriter/Editor",
+      "description": "A business podcast featuring senior executives in Europe. ",
+      "date": "September 2024",
+      "link": "https://open.spotify.com/episode/0FweEoV7qK0YdUGNKMlqZj?si=i93lyDHbSLmkjw1lPaLqeA",
+      "image": "/Articles/auroralive_podcast_logo.png"
+    },
+    {
+      "title": "PODCAST: Joanne Hannaford, CIO & CPO of Deustche Bank Corporate Bank",
+      "position": "Producer/Scriptwriter/Editor",
+      "description": "A business podcast featuring senior executives in Europe. ",
+      "date": "July 2024",
+      "link": "https://open.spotify.com/episode/4g7ch6WMCxKBElb5lrMEOJ?si=fad6f94355764f94",
+      "image": "/Articles/auroralive_podcast_logo.png"
+    },
+    {
       "title": "Alora Residences",
       "position": "Writer",
       "description": "An advertorial for Avaland Berhad's new property, Alora Residences.",
@@ -25,12 +41,28 @@
       "image": "/Copywriting/IFS_ME.jpg"
     },
     {
-      "title": "Build Your Own Dream House at Bayu Lakehomes",
+      "title": "Bayu Lakehomes",
       "position": "Writer",
       "description": "An advertorial for Bayu Lakehomes by SP Setia.",
       "date": "August 2023",
       "link": "https://www.iproperty.com.my/guides/build-your-own-dream-house-at-bayu-lakehomes-87786",
       "image": "/Copywriting/Bayu_Lakehomes.jpg"
+    },
+    {
+      "title": "Conlay by E&O",
+      "position": "Writer",
+      "description": "An advertorial for Conlay by E&O Group.",
+      "date": "June 2023",
+      "link": "https://www.iproperty.com.my/guides/conlay-by-eo-a-soaring-craftmanship-at-the-iconic-jalan-conlay-87193",
+      "image": "/Articles/Conlay (1).png"
+    },
+    {
+      "title": "Key Fators that Drive the Malaysia Property Market",
+      "position": "Writer",
+      "description": "An advertorial for Platinum Victory.",
+      "date": "April 2023",
+      "link": "https://www.iproperty.com.my/guides/key-factors-that-drive-the-malaysia-property-market-in-2023-85723",
+      "image": "/Articles/iProp1.jpg"
     }
   ]
 }
