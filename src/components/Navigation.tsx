@@ -35,7 +35,7 @@ const Navigation = () => {
     },
     { 
       icon: <FileText className="w-5 h-5 text-black" />, 
-      href: '/KF Resume 1.pdf',
+      href: '/Resume KF.pdf',
       label: 'CV'
     },
     { 
